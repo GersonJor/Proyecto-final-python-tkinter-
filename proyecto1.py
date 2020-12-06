@@ -17,6 +17,7 @@ class Miventana(Frame):#creamos una clase"Mi ventana" y luego heredamos la clase
         self.master=master
         self.pack(expand=True,fill='both')
         self.crear_widgets()
+        
     
     def Productos(self,event):#creamos una funcion "Productos" que reciba un parametro "event" para luego con un command lo ejecutemos
         
